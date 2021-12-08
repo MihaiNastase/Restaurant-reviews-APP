@@ -97,9 +97,11 @@ public class Registration extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-                            UserModel userModel = new UserModel(name,email,username,password,role);
 
                             String id = fAuth.getCurrentUser().getUid();
+
+                            UserModel userModel = new UserModel(name,email,username,password,id ,role);
+
                             reference.child("users").child(id).setValue(userModel);
 
                             Toast.makeText(Registration.this, "User Created", Toast.LENGTH_SHORT).show();

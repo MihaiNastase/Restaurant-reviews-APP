@@ -38,6 +38,11 @@ public class Login extends AppCompatActivity {
         toRegistration = findViewById(R.id.registration_page);
 
         fAuth = FirebaseAuth.getInstance();
+        //check for user login
+        if(fAuth.getCurrentUser() != null){
+            startActivity(new Intent(getApplicationContext(), Menu.class));
+            finish();
+        }
 
         logIn.setOnClickListener(new View.OnClickListener() {
             @Override

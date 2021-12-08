@@ -5,9 +5,14 @@
       <map>
         <entry key="..\:/Users/Mihai/AndroidStudioProjects/FFBF2/app/src/main/res/layout/activity_login.xml" value="0.22128851540616246" />
         <entry key="..\:/Users/Mihai/AndroidStudioProjects/FFBF2/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/Mihai/AndroidStudioProjects/FFBF2/app/src/main/res/layout/activity_menu.xml" value="0.33152173913043476" />
+        <entry key="..\:/Users/Mihai/AndroidStudioProjects/FFBF2/app/src/main/res/layout/activity_menu.xml" value="0.1409090909090909" />
+        <entry key="..\:/Users/Mihai/AndroidStudioProjects/FFBF2/app/src/main/res/layout/activity_profile.xml" value="0.22" />
         <entry key="..\:/Users/Mihai/AndroidStudioProjects/FFBF2/app/src/main/res/layout/activity_registration.xml" value="0.5" />
+        <entry key="..\:/Users/Mihai/AndroidStudioProjects/FFBF2/app/src/main/res/layout/activity_restaurants.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Mihai/AndroidStudioProjects/FFBF2/app/src/main/res/layout/activity_street_food.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Mihai/AndroidStudioProjects/FFBF2/app/src/main/res/layout/content_main.xml" value="0.3473731884057971" />
+        <entry key="..\:/Users/Mihai/AndroidStudioProjects/FFBF2/app/src/main/res/layout/header.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Mihai/AndroidStudioProjects/FFBF2/app/src/main/res/menu/menu_main.xml" value="0.5" />
       </map>
     </option>
   </component>

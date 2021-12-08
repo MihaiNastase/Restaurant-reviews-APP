@@ -10,16 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FFBF">
         <activity
-            android:name=".Menu"
+            android:name=".StreetFood"
+            android:parentActivityName=".Menu"
             android:exported="false" />
         <activity
-            android:name=".Registration"
+            android:name=".Restaurants"
+            android:parentActivityName=".Menu"
             android:exported="false" />
         <activity
-            android:name=".Login"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.FFBF.NoActionBar">
@@ -29,6 +28,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Forum"
+            android:exported="false"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Profile"
+            android:exported="false"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Menu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
     </application>
 
 </manifest>

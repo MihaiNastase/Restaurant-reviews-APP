@@ -2,16 +2,17 @@ package com.assignment.ffbf;
 
 public class UserModel {
 
-    String name, email, username, password, role;
+    String name, email, username, password, uid, role;
 
     public UserModel() {
     }
 
-    public UserModel(String name, String email, String username, String password, String role) {
+    public UserModel(String name, String email, String username, String password, String uid, String role) {
         this.name = name;
         this.email = email;
         this.username = username;
         this.password = password;
+        this.uid = uid;
         this.role = role;
     }
 
@@ -46,6 +47,10 @@ public class UserModel {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public String getUid() { return uid; }
+
+    public void setUid(String uid) { this.uid = uid; }
 
     public String getRole() {
         return role;
